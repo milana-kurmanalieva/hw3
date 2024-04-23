@@ -17,5 +17,6 @@ export function addUser(user) {
       "https://jsonplaceholder.typicode.com/users",
       options
     );
+    return response;
   };
 }
